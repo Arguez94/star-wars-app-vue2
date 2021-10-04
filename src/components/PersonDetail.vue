@@ -13,29 +13,29 @@
             <div class="inline-block">{{ person.data.birth_year }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Gender:</div>
-            <div>{{ person.data.gender }}</div>
+          <div>
+            <div class="inline-block">Gender:</div>
+            <div class="inline-block">{{ person.data.gender }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Height:</div>
-            <div>{{ person.data.height }}</div>
+          <div>
+            <div class="inline-block">Height:</div>
+            <div class="inline-block">{{ person.data.height }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Mass:</div>
-            <div>{{ person.data.mass }}</div>
+          <div>
+            <div class="inline-block">Mass:</div>
+            <div class="inline-block">{{ person.data.mass }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Hair Color:</div>
-            <div>{{ person.data.hair_color }}</div>
+          <div>
+            <div class="inline-block">Hair Color:</div>
+            <div class="inline-block">{{ person.data.hair_color }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Skin color:</div>
-            <div>{{ person.data.skin_color }}</div>
+          <div>
+            <div class="inline-block">Skin color:</div>
+            <div class="inline-block">{{ person.data.skin_color }}</div>
           </div>
         </slot>
       </section>

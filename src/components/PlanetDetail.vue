@@ -13,34 +13,34 @@
             <div class="inline-block">{{ planet.data.rotation_period }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Orbital period::</div>
-            <div>{{ planet.data.orbital_period }}</div>
+          <div>
+            <div class="inline-block">Orbital period::</div>
+            <div class="inline-block">{{ planet.data.orbital_period }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Diameter:</div>
-            <div>{{ planet.data.diameter }}</div>
+          <div>
+            <div class="inline-block">Diameter:</div>
+            <div class="inline-block">{{ planet.data.diameter }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Gravity:</div>
-            <div>{{ planet.data.gravity }}</div>
+          <div>
+            <div class="inline-block">Gravity:</div>
+            <div class="inline-block">{{ planet.data.gravity }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Terrain:</div>
-            <div>{{ planet.data.terrain }}</div>
+          <div>
+            <div class="inline-block">Terrain:</div>
+            <div class="inline-block">{{ planet.data.terrain }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Surface Water:</div>
-            <div>{{ planet.data.surface_water }}</div>
+          <div>
+            <div class="inline-block">Surface Water:</div>
+            <div class="inline-block">{{ planet.data.surface_water }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Population:</div>
-            <div>{{ planet.data.population }}</div>
+          <div>
+            <div class="inline-block">Population:</div>
+            <div class="inline-block">{{ planet.data.population }}</div>
           </div>
         </slot>
       </section>

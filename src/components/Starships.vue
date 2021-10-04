@@ -62,7 +62,7 @@ export default {
       { text: "Cargo Capacity", value: "cargo_capacity" },
       { text: "Consumables", value: "consumables" },
       { text: "Hyperdrive rating", value: "hyperdrive_rating" },
-      { text: "MGLT", value: "mglt" },
+      { text: "MGLT", value: "MGLT" },
     ],
     showModal: false,
     urlStarship: null,

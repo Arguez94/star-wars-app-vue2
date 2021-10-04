@@ -13,59 +13,58 @@
             <div class="inline-block">{{ starship.data.model }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Class:</div>
-            <div>{{ starship.data.class }}</div>
+          <div>
+            <div class="inline-block">Manufacturer:</div>
+            <div class="inline-block">{{ starship.data.manufacturer }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Manufacturer:</div>
-            <div>{{ starship.data.manufacturer }}</div>
+          <div>
+            <div class="inline-block">Cost:</div>
+            <div class="inline-block">{{ starship.data.cost_in_credits }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Cost:</div>
-            <div>{{ starship.data.cost_in_credits }}</div>
+          <div>
+            <div class="inline-block">Length:</div>
+            <div class="inline-block">{{ starship.data.length }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Length:</div>
-            <div>{{ starship.data.length }}</div>
+          <div>
+            <div class="inline-block">Max Speed:</div>
+            <div class="inline-block">
+              {{ starship.data.max_atmosphering_speed }}
+            </div>
           </div>
 
-          <div class="inline-block">
-            <div>Max Speed:</div>
-            <div>{{ starship.data.max_atmosphering_speed }}</div>
+          <div>
+            <div class="inline-block">Crew:</div>
+            <div class="inline-block">{{ starship.data.crew }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Crew:</div>
-            <div>{{ starship.data.crew }}</div>
+          <div>
+            <div class="inline-block">Passengers:</div>
+            <div class="inline-block">{{ starship.data.passengers }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Passengers:</div>
-            <div>{{ starship.data.passengers }}</div>
+          <div>
+            <div class="inline-block">Cargo Capacity:</div>
+            <div class="inline-block">{{ starship.data.cargo_capacity }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Cargo Capacity:</div>
-            <div>{{ starship.data.cargo_capacity }}</div>
+          <div>
+            <div class="inline-block">Consumables:</div>
+            <div class="inline-block">{{ starship.data.consumables }}</div>
           </div>
 
-          <div class="inline-block">
-            <div>Consumables:</div>
-            <div>{{ starship.data.consumables }}</div>
+          <div>
+            <div class="inline-block">Hyperdrive Rating:</div>
+            <div class="inline-block">
+              {{ starship.data.hyperdrive_rating }}
+            </div>
           </div>
 
-          <div class="inline-block">
-            <div>Hyperdrive Rating:</div>
-            <div>{{ starship.data.hyperdrive_rating }}</div>
-          </div>
-
-          <div class="inline-block">
-            <div>MGLT:</div>
-            <div>{{ starship.data.mglt }}</div>
+          <div>
+            <div class="inline-block">MGLT:</div>
+            <div class="inline-block">{{ starship.data.MGLT }}</div>
           </div>
         </slot>
       </section>
@@ -165,7 +164,7 @@ export default {
   border-radius: 2px;
 }
 
-.inline.block {
+.inline-block {
   display: inline-block;
 }
 </style>
